@@ -5,9 +5,162 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
 }
+
+html,body { height:100%; }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  height: 100px;
+  display: flex;
+  align-content: space-between;
+  background-image: linear-gradient(to right, rgba(93, 92, 95, 0.123) , rgba(93, 92, 95, 0.863));
+}
+
+#title-name {
+  font-family: 'Merriweather', serif;
+  font-size: 35px;
+  padding-left: 50px
+}
+
+.prof-pic {
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+.collapse {
+  float:right
+}
+
+#navbarNav {
+  padding-left: 40%;
+}
+
+.navbar-nav a{
+  text-decoration: none;
+  color:white;
+  font-size: 20px
+}
+
+.main {
+  background-color: rgb(47, 46, 77);
+  color: whitesmoke;
+}
+
+.content-title {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.profPic {
+  padding-left: 50px;
+  padding-top: 40px;
+  max-height: auto
+}
+
+.content-body {
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.content-body p {
+  font-size: 18px
+}
+
+.links {
+  display:flex;
+  align-items: center;
+  justify-content: center
+}
+
+.linktag {
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.portfolio {
+  border: 1px solid;
+  border-radius: 10px;
+  margin-left: 80px;
+  margin-bottom: 25px;
+  padding: 15px
+}
+
+.proName {
+  font-size: 25px;
+}
+
+.portfolios {
+  padding: 50px
+}
+
+.conTitle {
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 20px
+}
+
+.content-title, .conTitle {
+  font-size: 25px
+}
+
+.skills {
+  padding-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  margin-bottom: -20px;
+  font-size: 18px
+}
+
+.res {
+  padding-left: 50px;
+  padding-top: 15px;
+  font-size: 18px
+}
+
+.footer-contact {
+  padding-left: 50px;
+  padding-right:50px;
+  display: flex;
+  font-size: 40px;
+}
+
+.links {
+  margin: auto;
+}
+
+i {
+  text-decoration: none;
+  color: white;
+}
+
+.form {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  background-color: rgb(142, 137, 130);;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+
+.btn {
+  margin-bottom: 75px;
+}
+
+
+
+
